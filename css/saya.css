@@ -1,0 +1,69 @@
+body{
+	background-image: linear-gradient(rgba(47,18,27,.65),rgba(47,23,15,.65)),url(img/lak.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.rt{
+	border-radius: 20px;
+	font-family: Berlin Sans FB Demi;
+	color: black ;
+	margin-right: 600px;
+	font-size: 20px;
+	background-color: white;
+}
+.rw{
+	border-radius: 20px;
+	font-family: Berlin Sans FB Demi;
+	color: black ;
+	margin-right: 600px;
+	font-size: 20px;
+	background-color: white;
+}
+.re {
+	border-radius: 20px;
+	font-family: Berlin Sans FB Demi;
+	color: black;
+	margin-left: 600px; 
+	font-stretch: semi-condensed;
+	font-size: 20px;
+	background-color: white;
+}
+.dropdown-menu {  
+	background-color: #eaeaea;
+} 
+.dropdown-menu li a { 
+	padding: 5px; 
+ 	color: black;
+ 	background-color: white;
+} 
+.dropdown-menu li a:hover{
+	color: black;
+	background-color: #eaeaea;
+	font-family: Bahnschrift SemiBold Condensed;
+}
+.q{
+	float: left;
+	background-color: rgb(108, 89, 219);
+	margin-bottom: -1px;
+}
+.navbar{
+	background-color: black;
+}
+.container{
+	background-color: #333;
+	margin-right: 0px;
+}
+.container .nav{
+	margin-right: 40px;
+}
+.kaka{
+	margin-left: 150px;
+	margin-right: 180px;
+}
+footer{
+	color: black;
+	padding: 2px;
+	background-color: grey;
+	margin-top: 20px;
+}

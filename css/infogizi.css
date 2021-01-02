@@ -1,0 +1,56 @@
+body{
+  	background-color: white
+}
+.dropdown-menu {  
+	background-color: #eaeaea;
+} 
+.dropdown-menu li a { 
+	padding: 5px; 
+ 	color: black;
+ 	background-color: white;
+} 
+.dropdown-menu li a:hover{
+	color: black;
+	background-color: #eaeaea;
+	font-family: Bahnschrift SemiBold Condensed;
+}
+.q{
+	float: left;
+	background-color: rgb(108, 89, 219);
+	margin-bottom: -1px;
+}
+.navbar{
+	background-color: black;
+}
+.jumbotron{
+	margin-top: -70px;
+	width: 800px;
+	margin-left: 200px;
+	background-color: white;
+	margin-bottom: -50px;
+}
+h3{
+	font-weight: bold;
+}
+h2{
+	font-weight: bold;
+}
+.footer{
+	padding: 17px;
+	background-color: grey;
+	color: #333;
+	font-weight: bold;
+}
+.sehat{
+	border-top: 2px solid black;
+}
+p{
+	font-family: Times New Roman;
+}
+h3{
+	font-family: Calibri;
+}
+.jumbotron .p{
+	margin-top: -10px;
+	margin-bottom: -5px;
+}

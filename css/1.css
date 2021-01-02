@@ -1,0 +1,120 @@
+body{
+  background-image: linear-gradient(rgba(47,18,27,.65),rgba(47,23,15,.65)),url(img/gok.png);
+  background-size: cover;
+}
+input[type=text], select {
+  width: 300px;
+  padding: 12px 20px;
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+}
+input[type=number], select {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 3px 0;
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+}
+input[type=password], select {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #eaeaea
+}
+input[type="date"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 370px;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+input[type=reset] {
+  width: 370px;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+input[type=submit]:hover {
+  background-color: green;
+}
+input[type=reset]:hover {
+  background-color: grey;
+}
+form{
+  background-color: darkgrey;
+  margin: auto;
+  width: 800px;
+  height: 450px;
+  margin-top: 80px;
+}
+.langkah{
+  margin-top: 15px;
+}
+.judul{
+  font-family: Britannic Bold;
+  font-size: 25px;
+}
+.rt, .re{
+  font-family: Berlin Sans FB Demi;
+  color: black ;
+  margin-left: 600px;
+  font-size: 20px;
+  background-color: rgba(223, 204, 204, 0.575);
+}
+.rw, .rr {
+  font-family: Berlin Sans FB Demi;
+  color: black;
+  margin-right: 600px; 
+  font-stretch: semi-condensed;
+  font-size: 20px;
+  background-color: rgba(223, 204, 204, 0.575);
+}
+.dropdown-menu {  
+  background-color: #eaeaea;
+} 
+.dropdown-menu li a { 
+  padding: 5px; 
+  color: black;
+  background-color: white;
+} 
+.dropdown-menu li a:hover{
+  color: black;
+  background-color: #eaeaea;
+  font-family: Bahnschrift SemiBold Condensed;
+}
+.q{
+  float: left;
+  background-color: rgb(108, 89, 219);
+  margin-bottom: -1px;
+}
+.navbar{
+  background-color: black;
+}
